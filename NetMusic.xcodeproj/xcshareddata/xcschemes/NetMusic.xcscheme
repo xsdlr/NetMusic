@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD0E45741A2C626300389DF4"
-               BuildableName = "NetMusic.app"
-               BlueprintName = "NetMusic"
-               ReferencedContainer = "container:NetMusic.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD0E458D1A2C626300389DF4"
-               BuildableName = "NetMusicTests.xctest"
-               BlueprintName = "NetMusicTests"
-               ReferencedContainer = "container:NetMusic.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D7969FD4DA6CB5D3F66B0DA"
                BuildableName = "libPods-NetMusic.a"
                BlueprintName = "Pods-NetMusic"
@@ -74,6 +46,34 @@
                BuildableName = "libPods-NetMusic-MBProgressHUD.a"
                BlueprintName = "Pods-NetMusic-MBProgressHUD"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD0E45741A2C626300389DF4"
+               BuildableName = "NetMusic.app"
+               BlueprintName = "NetMusic"
+               ReferencedContainer = "container:NetMusic.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD0E458D1A2C626300389DF4"
+               BuildableName = "NetMusicTests.xctest"
+               BlueprintName = "NetMusicTests"
+               ReferencedContainer = "container:NetMusic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
