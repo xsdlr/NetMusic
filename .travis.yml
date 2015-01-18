@@ -1,4 +1,4 @@
 language: objective-c
 xcode_workspace: NetMusic.xcworkspace
-xcode_scheme: NetMusicTests
+xcode_scheme: NetMusicTest
 install: pod install
