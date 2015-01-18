@@ -1,5 +1,5 @@
 language: objective-c
 xcode_workspace: NetMusic.xcworkspace
 xcode_scheme: NetMusic
-xcode_sdk: iphoneos
+xcode_sdk: iphonesimulator
 install: pod install
