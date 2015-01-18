@@ -1,4 +1,5 @@
 language: objective-c
 xcode_workspace: NetMusic.xcworkspace
 xcode_scheme: NetMusic
+xcode_sdk: iPhoneOS8.1
 install: pod install
