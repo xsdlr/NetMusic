@@ -3,5 +3,7 @@ xcode_workspace: NetMusic.xcworkspace
 xcode_scheme: NetMusic
 xcode_sdk: iphonesimulator
 install: pod install
+before_install:
+  - sudo easy_install cpp-coveralls
 after_success:
   - ./script/coveralls.sh
