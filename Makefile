@@ -1,4 +1,3 @@
-project_path = NetMusic
 project_name = NetMusic
 TEST_TARGET = NetMusicTests
 
@@ -8,8 +7,7 @@ clean:
 
 test-with-coverage:
 	xcodebuild \
-		-workspace ${project_path}/${project_name}.xcworkspace \
-		# -target $(TEST_TARGET) \
+		-workspace ${project_name}.xcworkspace \
 		-scheme ${project_name} \
 		-sdk iphonesimulator \
 		-configuration Release \
