@@ -17,7 +17,7 @@ test:
 
 test-with-coverage:
   xcodebuild \
-      -workspace $(WORKSPACE) \
+      -workspace ${project_name}.xcworkspace \
       -target $(TEST_TARGET) \
       -sdk iphonesimulator \
       -configuration Debug \
