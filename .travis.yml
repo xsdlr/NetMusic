@@ -1,22 +1,7 @@
-# language: objective-c
-# xcode_workspace: NetMusic.xcworkspace
-# xcode_scheme: NetMusic
-# xcode_sdk: iphonesimulator
-# install: pod install
-# before_install:
-#   - sudo easy_install cpp-coveralls
-# script:
-#   - xctool -workspace NetMusic.xcworkspace -scheme NetMusic -sdk iphonesimulator build test ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
-# after_success:
-#   - ./script/coveralls.sh
-
 language: objective-c
-
 before_install:
   - sudo easy_install cpp-coveralls
 script:
   - xctool -workspace NetMusic.xcworkspace -scheme NetMusic -sdk iphonesimulator build test ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
-  # - make clean test-with-coverage
 after_success:
-  # - make send-coverage
-  - coveralls -e NetMusicTests
+  - coveralls -i NetMusicTests
