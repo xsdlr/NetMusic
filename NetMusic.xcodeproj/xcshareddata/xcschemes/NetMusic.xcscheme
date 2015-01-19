@@ -93,6 +93,11 @@
                BlueprintName = "NetMusicTests"
                ReferencedContainer = "container:NetMusic.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "NetMusicTests/testPerformanceExample">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
