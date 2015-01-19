@@ -12,7 +12,7 @@ test-with-coverage:
 		# -target $(TEST_TARGET) \
 		-scheme ${project_name} \
 		-sdk iphonesimulator \
-		-configuration Debug \
+		-configuration Release \
 		TARGETED_DEVICE_FAMILY=1,2 \
 		TEST_AFTER_BUILD=YES \
 		TEST_HOST= \
