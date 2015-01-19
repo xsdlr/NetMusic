@@ -8,7 +8,7 @@ clean:
 
 test-with-coverage:
 	xcodebuild \
-		-workspace ${project_name}.xcworkspace \
+		-workspace ${project_path}/${project_name}.xcworkspace \
 		# -target $(TEST_TARGET) \
 		-scheme ${project_name} \
 		-sdk iphonesimulator \
