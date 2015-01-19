@@ -579,6 +579,7 @@
 		};
 		CD0E459C1A2C626300389DF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270E8F26FFE97BE1C4BD901E /* Pods-NetMusic.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
