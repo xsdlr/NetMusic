@@ -4,7 +4,6 @@ TEST_TARGET = NetMusicTests
 
 clean:
   xcodebuild \
-      -workspace \
       clean
 
 test:
