@@ -18,9 +18,11 @@ test:
 test-with-coverage:
 	xcodebuild \
         -workspace ${project_name}.xcworkspace \
-        -target $(TEST_TARGET) \
+        # -target $(TEST_TARGET) \
+        -scheme ${project_name} \
         -sdk iphonesimulator \
         -configuration Debug \
+        TARGETED_DEVICE_FAMILY=1,2 \
         TEST_AFTER_BUILD=YES \
         TEST_HOST= \
         GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES \
